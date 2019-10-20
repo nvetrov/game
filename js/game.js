@@ -25,7 +25,7 @@ function round() {
 function endGame() {
   $(".game-field").addClass("d-none");
 
-  let totalPlayedMillis = getTimestamp() - firstHitTime;
+  let totalPlayedMillis;
 
   totalPlayedMillis = getTimestamp() - firstHitTime;
 
@@ -64,7 +64,7 @@ function init() {
   });
 }
 
-$(document).ready(init);
+// $(document).ready(init);
 // const numDivs = 36;
 // const maxHits = 10;
 //
